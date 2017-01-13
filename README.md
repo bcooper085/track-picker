@@ -11,10 +11,10 @@ Work in progress._
 
 ##Setup
 
-*_Clone this repository._
-*_Select answer for each question._
-*_View results._
-*_Enjoy._
+* _Clone this repository._
+* _Select answer for each question._
+* _View results._
+* _Enjoy._
 
 ## Known Bugs
 
@@ -26,11 +26,11 @@ Please report any bugs to github or email me directly at bcooper085@gmail.com
 
 ##Technologies Used
 
-*_JavaScript_
-*_jQuery_
-*_HTML_
-*_CSS_
-*_Bootstrap_
+* _JavaScript_
+* _jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
 
 [Click here](https://github.com/bcooper085/track-picker)
 
