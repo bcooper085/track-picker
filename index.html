@@ -8,20 +8,23 @@
     <title>Track Selector</title>
   </head>
   <body>
-    <form class="main">
-      <label for="q1">What type of workplace would you prefer?</label>
-      <input id="q1" list="answers1" name="q1">
-      <datalist id="answers1">
-        <option value="Big Business">
-        <option value="Start-Up">
-        <option value="Doesnt matter">
-        <option value="Flexible">
-      </datalist>
-      <button type="submit" name="button">Lets go!</button>
-    </form>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Answer the following questions to see your recommended language...</h2>
+        <form class="main">
+          <label for="q1">What type of workplace would you prefer?</label>
+          <select id="answers1">
+            <option value="c#">Big Business</option>
+            <option value="ruby">Start-Up</option>
+            <option value="java">Doesnt matter</option>
+            <option value="php">Flexible</option>
+          </select>
+          <button type="submit" name="button">Lets go!</button>
+        </form>
 
-    <div id="output">
+        <div id="output">
+        </div>
+      </div>
     </div>
-
   </body>
 </html>
