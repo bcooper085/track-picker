@@ -32,6 +32,6 @@ Please report any bugs to github or email me directly at bcooper085@gmail.com
 * _CSS_
 * _Bootstrap_
 
-[Click here](https://github.com/bcooper085/track-picker)
+[View Project Repo Here](https://github.com/bcooper085/track-picker)
 
 Copyright (c) 2017 **_Copyright B. Cooper Designs All Rights Reserved, Brandon Cooper._**
