@@ -27,7 +27,7 @@ $(function() {
       var result = "Maybe this isn't for you!";
     }
     $("#output").text(result);
-    $('form').fadeOut();
+    $('form').fadeOut().fadeIn(5000);
     event.preventDefault();
   });
 });
