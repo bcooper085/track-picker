@@ -7,8 +7,9 @@ $(function() {
     var selected4 = $('#question4 option:selected').val();
     var selected5 = $('#question5 option:selected').val();
     var selected6 = $('#question6 option:selected').val();
+    var check = $('option:selected').val();
 
-    if ($('option:selected').val() === "selected") {
+    if (check === "selected") {
       var result = "Please complete the questions to see your recommended language.";
     } else if (selected2 === "java" && selected4 === "c#") {
       var result = "You should try C# or Java!";
@@ -22,7 +23,7 @@ $(function() {
       var result = "You should study CSS/Design!";
     } else if (selected1 === "ruby" || selected2 === "ruby" || selected5 === "ruby" &&  selected6 !== "design") {
       var result = "You should be a Ruby/Rails developer!";
-    } else if (selected6 === "x" && selected5 === "x" && selected4 === "x" && selected3 === "x" && selected2 === "x" && selected1 === "x") {
+    } else {
       var result = "Maybe this isn't for you!";
     }
     $("#output").text(result);
